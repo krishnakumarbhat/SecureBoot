@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1 align="center">Tester</h1>
+
+{% if success %}
+<div class="alert alert-success">
+  File sent and received successfully!
+</div>
+{% endif %}
+
+<form method="POST" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="ip_address">Client A Socket IP Address:</label>
+    <input type="text" class="form-control" id="ip_address" name="ip_address" required>
+  </div>
+  <div class="form-group">
+    <label for="port">Client A Socket Port:</label>
+    <input type="text" class="form-control" id="port" name="port" required>
+  </div>
+  <div class="form-group">
+    <label for="ip_address1">Client A Socket1 IP Address:</label>
+    <input type="text" class="form-control" id="ip_address1" name="ip_address1" required>
+  </div>
+  <div class="form-group">
+    <label for="port1">Client A Socket1 Port:</label>
+    <input type="text" class="form-control" id="port1" name="port1" required>
+  </div>
+  <div class="form-group">
+    <label for="file">File:</label>
+    <input type="file" class="form-control-file" id="file" name="file" required>
+  </div>
+  <br>
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Render and Send</button>
+  </div>
+</form>
+
+{% endblock %}
