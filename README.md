@@ -9,4 +9,4 @@
 as shown in above pdf this prcess was sucessfull in laptop but need to impliment HSM for this using pico due lack of crypto library and capability of pico w chip i was unable to do so # pico # file in this repo has code that i tried in pico but i can't encrypt the chunks so this is future project
 
 
-[krishnakumarresume (1) (1).pdf](https://github.com/krishnakumarbhat/SecureBoot/files/12209823/krishnakumarresume.1.1.pdf)
+![Secure Boot](https://github.com/krishnakumarbhat/SecureBoot/assets/79183768/106822b7-1db2-447d-8ee3-efc456221f23)
